@@ -35,12 +35,6 @@ if (!defined('APPPATH'))
                 Copyright &copy; 2014-2015,  <a href="mailto:someone@somewhere.com">Me</a>.
             </div>
         </div>
-		<Script>
-			$('.{field}').jRating({
-				rateMax : 5, //highest rating
-				phpPath : '/viewer/rate' //target for the AJAX call
-			});
-		</Script>
         {caboose_scripts}
         {caboose_trailings}
     </body>
